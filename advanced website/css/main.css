@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #252525;
+    position: relative;
+    padding-bottom: 68px;
+    min-height: 100vh;
+}
+.heading{
+    color: lime;
+    text-align: center;
+    background-color: #212121;
+    font-size: 64px;
+    margin: 0;
+}
+.description{
+    color: lime;
+    text-align: center;
+    background-color: #212121;
+    font-size: 20px;
+}
+footer{
+    background-color: #212121;
+    color: lime;
+    text-align: center;
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.links{
+    font-size: small;
+    color: lime;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 75px;
+}
+form button{
+    background-color: #3A3A3A;
+    color: red;
+    height: 50px;
+}
+form input{
+    height: 50px;
+    width: 500px;
+    background-color: #4E4E4E;
+}
+form button:hover{
+    background-color: red;
+    color: #3A3A3A;
+    transition: all 1s ease;
+}
+.user-post{
+    text-align: center;
+    background-color: #3A3A3A;
+    color: green;
+    margin: 8px 30%;
+}
